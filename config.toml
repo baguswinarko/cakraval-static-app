@@ -13,7 +13,23 @@ theme = 'hugo-universal-theme'
 [[params.menu]]
     name = "Contact"
     url  = "/contact"
-    weight = 4    
+    weight = 10
+
+[params.topbar]
+    enable = true
+    text = "<p>Contact us on +62 21 397 20660 or hello@cakraval.com</p>"
+
+[[menu.topbar]]
+    weight = 1
+    name = "GitHub"
+    url = "https://github.com/baguswinarko"
+    pre = "<i class='fas fa-2x fa-github'></i>"
+
+[[menu.topbar]]
+    weight = 2
+    name = "Facebook"
+    url = "http://facebook.com"
+    pre = "<i class='fas fa-2x fa-facebook'></i>"        
 
 [[menu.main]]
     name       = "Home"
