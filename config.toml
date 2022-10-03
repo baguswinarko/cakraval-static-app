@@ -8,7 +8,7 @@ theme = 'hugo-universal-theme'
     logo_text = "Universal"
 
     logo = "/../img/cval-hugo-universal-logo.png"
-    logo_small = "img/logo-small.png"
+    logo_small = "/../img/cval-hugo-universal-logo-small.png"
 
 [params.topbar]
     enable = true
