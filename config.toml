@@ -1,4 +1,4 @@
-baseURL = 'https://blue-beach-035c95a00.2.azurestaticapps.net/'
+baseURL = 'https://www.cakraval.com/'
 languageCode = 'en-us'
 title = 'CakraVal :: Cakrawala Val Teknologi'
 theme = 'hugo-universal-theme'
@@ -27,7 +27,7 @@ theme = 'hugo-universal-theme'
       """
     about_us = """<p>CakraVal is an IT service company based in Jakarta.
         <br>
-        <br>. We strive to offer the best service for all topics related to IT. Our goal is to provide a complete set of IT services, so we offer our Clients a complete takeover of their existing infrastructure, including server management, desktop management, and network management. We solve all our Client problems on all possible levels, so our clients don't have to worry about anything and focus on their core business and not constantly worry about their IT infrastructure.
+        <br>We strive to offer the best service for all topics related to IT. Our goal is to provide a complete set of IT services, so we offer our Clients a complete takeover of their existing infrastructure, including server management, desktop management, and network management. We solve all our Client problems on all possible levels, so our clients don't have to worry about anything and focus on their core business and not constantly worry about their IT infrastructure.
         <br>
         </p>CakraVal is specializing in helping out small and medium-sized businesses. However, we also work for large corporations on a contract basis. We strive to bring the best services to the Clients: consulting, system implementation or migration, knowledge transfer, IT processes or system assessment/audit, and professional outsourcing.
         <br>
@@ -44,7 +44,7 @@ theme = 'hugo-universal-theme'
     text = "<p>Contact us on +62 21 397 20660 or hello@cakraval.com</p>"
 
     contact_url = "/contact"
-
+    about_url = "/about"
 
 # Top bar social links menu
 
@@ -57,7 +57,7 @@ theme = 'hugo-universal-theme'
 [[menu.topbar]]
     weight = 2
     name = "GitHub"
-    url = "https://github.com/baguswinarko"
+    url = "https://github.com/"
     pre = "<i class='fab fa-2x fa-github'></i>"
 
 [[menu.topbar]]
@@ -149,7 +149,7 @@ theme = 'hugo-universal-theme'
 
 [[menu.main]]
     name       = "About Us"
-    url        = ""
+    url        = "/about/"
     weight     = 1
     parent     = "section.about"
 
